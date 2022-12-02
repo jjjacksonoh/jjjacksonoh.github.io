@@ -1,0 +1,208 @@
+/**
+** BACKGROUND
+**/
+
+body {
+  background-image: url("/images/Clear-Sky-Clouds-PPT-Backgrounds-3036342991.jpg");
+  background-size: 100% 100%;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  color: #2b2b2b;
+}
+
+/**
+** NAVBAR
+**/
+
+.navbar {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  color: #e7e7e7;
+  padding: 24px;
+  display: block;
+}
+
+/* When a use hovers or focuses to a link change the background */
+.navbar ul a:hover,
+.navbar ul a:focus,
+.navbar ul .active {
+  background-color: #2b2b2b;
+}
+
+/**
+** PROJECTS
+**/
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#color-my-spotify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #2b2b2b;
+}
+
+#police-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #2b2b2b;
+}
+
+p:not(.project-description) {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+/**
+** ABOUT ME
+**/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.resume-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-document {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/**
+** IMAGES
+**/
+
+img:not(.socials) {
+    border: 3px solid #2b2b2b;
+}
+
+#color-my-spotify img {
+  width: 20%;
+  height: auto;
+}
+#police-data a{
+    display:flex;
+    justify-content: center;
+}
+
+#police-data a img {
+  width: 20%;
+  height: auto;
+}
+
+.about img {
+    width: 20%;
+    height: auto;
+}
+
+.linkedin {
+    width: 10%;
+    height: auto;
+}
+
+/**
+** CONTACT ME
+**/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-links .socials {
+    width: 10%;
+    height: auto;
+}
+
+#linkedin {
+    width: 10%;
+    height: auto;
+}
+
+#instagram {
+    width: 19%;
+    height: auto;
+}
+
+#snapchat {
+    width: 17%;
+    height: auto;
+}
+
+#twitter {
+    width: 11%;
+    height: auto;
+}
+
+/**
+** PROJECT PAGE
+**/
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.back-arrow img{
+    width: 3%;
+    height: auto;
+}
+
+.project-findings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.finding-imgs img{
+    width: 30%;
+    height: auto;
+}
+
+#bar-graph {
+    width: 70%;
+    height: auto;
+}
